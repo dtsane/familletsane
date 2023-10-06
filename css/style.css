@@ -4930,6 +4930,34 @@ Back To Top Section
     text-decoration: none;
     cursor: pointer;
   }
+  .schedule{
+    font-weight: 900;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://marvel-b1-cdn.bc0a.com/f00000000270511/s19525.pcdn.co/wp-content/uploads/2020/01/fifty-years-1024x512.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    flood-opacity: 50%;
+    background-size: cover;
+  }
+  .schedule ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.schedule li {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+.schedule strong {
+/*color:  rgb(238, 206, 25);*/
+color: rgb(12, 148, 134);
+}
 
 /**
  * 7. - RESPONSIVE
